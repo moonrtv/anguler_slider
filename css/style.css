@@ -27,11 +27,6 @@ body {
 		float: left;
 		width: 20%;
 	}
-
-	.page .title-slides{
-		float: left;
-		width: 20%;
-	}
 	.page img {
 		position: relative;
   	left: 0;
@@ -40,9 +35,6 @@ body {
   	bottom: 0;
   	margin: auto;
   	height: auto;
-  	width: 100%;		
-	}
-	.page .title-slides {
   	width: 100%;		
 	}
   .overflow {
