@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular.min.js"></script>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body ng-app>
+	<div id="slider" ng-controller="MySlider">
+		<div id="slides">
+			<div class="overflow">
+				<div id="slide-show" class="inner">
+					<div class="page">
+						<div class="title-slides"> 
+							 <span class="title">Cougar</span>
+						</div>
+						<a href="">
+							<img src="images/img_1.jpg" alt="Images №1">
+						</a>
+					</div>
+					<div class="page">
+						<div class="title-slides"> 
+							<span class="title">Lions</span>
+						</div>
+						<img src="images/img_2.jpg" alt="Images №2">
+					</div>
+					<div class="page">
+					<div class="title-slides"> 
+						<span class="title">Snow Leopard</span>
+					</div>
+						<img src="images/img_3.jpg" alt="Images №3">
+					</div>
+					<div class="page">
+					<div class="title-slides"> 
+						<span class="title">Wolf</span>
+					</div>
+						<img src="images/img_4.jpg" alt="Images №4">
+					</div>
+					<div class="page">
+					<div class="title-slides"> 
+						<span class="title">Crocodile</span>
+					</div>
+						<img src="images/img_5.jpg" alt="Images №5">
+					</div>
+				</div>
+			</div>
+		</div>
+		<input type="button" id="next" value="next" ng-click="next()">
+		<input type="button" id="prev" value="prev" ng-click="prev()">
+	</div>
+	<script src="js/slider.js"></script>
+</body>
+</html>
